@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.favouriteless.createasnails.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "createasnails.refmap.json",
+  "mixins": [
+    "MixinTemperatureHandler",
+    "MixinTemperatureHelperImpl"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
